@@ -1,0 +1,27 @@
+{
+  "name": "physics-academy-quantum-universe",
+  "private": true,
+  "version": "0.4.3",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace apps/student-web run dev",
+    "dev:admin": "npm --workspace apps/admin-web run dev",
+    "dev:api": "npm --workspace services/api run start:dev",
+    "build": "npm --workspaces --if-present run build",
+    "build:web": "npm --workspace apps/student-web run build",
+    "build:admin": "npm --workspace apps/admin-web run build",
+    "build:api": "npm --workspace services/api run build",
+    "lint": "npm --workspaces --if-present run lint",
+    "typecheck": "npm --workspaces --if-present run typecheck",
+    "test": "npm --workspaces --if-present run test",
+    "assets": "python3 PHYSICS_ACADEMY_ASSETS/tools/generate_all.py",
+    "assets:sync": "node scripts/sync-assets.mjs student-web && node scripts/sync-assets.mjs admin-web"
+  }
+}

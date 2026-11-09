@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Physics Academy</string>
+
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_learn">تعلّم</string>
+    <string name="nav_labs">المختبرات</string>
+    <string name="nav_games">الألعاب</string>
+    <string name="nav_progress">تقدّمي</string>
+
+    <string name="home_welcome">مرحباً بك في عالمك العلمي</string>
+    <string name="home_eyebrow">YOUR PERSONAL LEARNING UNIVERSE</string>
+    <string name="home_hero_title">كل فكرة جديدة،\nتفتح لك عالماً.</string>
+    <string name="home_hero_body">تعلّم بذكاء، جرّب بنفسك، واكتشف قدراتك خطوة بخطوة.</string>
+    <string name="home_start">ابدأ التعلّم</string>
+    <string name="home_preview_note">لا توجد بيانات تقدّم حقيقية بعد — هذه معاينة للشكل.</string>
+
+    <string name="stat_time">وقت التعلّم</string>
+    <string name="stat_time_hint">بانتظار تسجيل نشاطك</string>
+    <string name="stat_goal">هدف اليوم</string>
+    <string name="stat_goal_hint">اضبط هدفك لاحقاً</string>
+    <string name="stat_achievements">إنجازاتك</string>
+    <string name="stat_achievements_hint">تظهر بعد أول درس</string>
+    <string name="stat_plan">خطة الدراسة</string>
+    <string name="stat_plan_hint">مخطط المذاكرة</string>
+    <string name="stat_value_none">—</string>
+    <string name="stat_value_unset">غير محدد</string>
+    <string name="stat_value_unplanned">غير منشأة</string>
+
+    <string name="learn_title">المواد الدراسية</string>
+    <string name="learn_subtitle">اختر مادة لاستعراض مسارها</string>
+    <string name="subject_pending_label">المحتوى قيد الإعداد</string>
+    <string name="subject_pending">مادة %1$s: المحتوى قيد الإعداد</string>
+    <string name="subject_physics">الفيزياء</string>
+    <string name="subject_physics_sub">افهم قوانين الكون</string>
+    <string name="subject_chemistry">الكيمياء</string>
+    <string name="subject_chemistry_sub">اكتشف عالم التفاعلات</string>
+    <string name="subject_biology">الأحياء</string>
+    <string name="subject_biology_sub">استكشف أسرار الحياة</string>
+    <string name="subject_mathematics">الرياضيات</string>
+    <string name="subject_mathematics_sub">حوّل الأرقام إلى أفكار</string>
+    <string name="subject_geology">الجيولوجيا</string>
+    <string name="subject_geology_sub">اقرأ تاريخ الأرض</string>
+
+    <string name="labs_title">المختبرات والمحاكاة</string>
+    <string name="games_title">الألعاب والتحديات</string>
+    <string name="progress_title">تقدّمي وإنجازاتي</string>
+    <string name="coming_soon">هذا القسم قيد البناء، وسيُفعَّل في مرحلة قادمة.</string>
+
+    <string name="soon">قريباً</string>
+    <string name="feature_pending">%1$s: سيُفعَّل في مرحلة قادمة</string>
+    <string name="teacher_card_title">المدرس الذكي كوانتا</string>
+    <string name="teacher_card_body">مدرسك الشخصي سيساعدك في فهم المفاهيم وحل المسائل. يُفعَّل بعد ربط خادم آمن.</string>
+
+    <string name="labs_subtitle">اختر مختبراً. التجارب التفاعلية قيد البناء.</string>
+    <string name="games_subtitle">تحديات تعليمية قصيرة. النقاط تُحسب على الخادم لاحقاً.</string>
+    <string name="levels_subtitle">سلّم المستويات الخمسة عشر. مستواك الفعلي يظهر بعد ربط حسابك.</string>
+    <string name="level_label">المستوى %1$d</string>
+    <string name="level_content_desc">شارة المستوى %1$d: %2$s</string>
+
+    <string-array name="lab_titles">
+        <item>مختبر الفيزياء</item><item>مختبر الكيمياء</item><item>مختبر الأحياء</item><item>مختبر الرياضيات</item><item>مختبر الجيولوجيا</item>
+    </string-array>
+    <string-array name="lab_blurbs">
+        <item>حركة وقوى ودوائر كهربائية وموجات</item><item>تفاعلات ومحاليل وتجارب آمنة</item><item>خلايا ومجهر ووراثة وDNA</item><item>دوال ورسوم وأشكال هندسية</item><item>طبقات الأرض والصخور والبراكين</item>
+    </string-array>
+    <string-array name="game_titles">
+        <item>التحدي اليومي</item><item>ألغاز علمية</item><item>تحدي الفيزياء</item><item>تحدي الكيمياء</item><item>تحدي الأحياء</item><item>تحدي الوقت</item><item>لعبة التجارب</item>
+    </string-array>
+    <string-array name="game_blurbs">
+        <item>سؤال جديد كل يوم وحافظ على سلسلتك</item><item>رتّب المفاهيم وحُلّ الألغاز</item><item>مسائل سريعة في قوانين الحركة</item><item>عناصر ومركبات وتفاعلات</item><item>أجهزة الجسم والخلية</item><item>أجب قبل انتهاء العدّاد</item><item>نفّذ تجربة وشاهد النتيجة</item>
+    </string-array>
+    <string-array name="level_names">
+        <item>فضي</item><item>ذهبي</item><item>بلاتيني</item><item>ماسي</item><item>متميز</item><item>النجم</item><item>البطل</item><item>المتفوق</item><item>الخبير</item><item>المبتكر</item><item>الحكيم</item><item>العلّامة</item><item>النابغة</item><item>الأستاذ</item><item>سيد المنهج</item>
+    </string-array>
+</resources>

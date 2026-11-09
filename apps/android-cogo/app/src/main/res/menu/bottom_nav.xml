@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:icon="@drawable/ic_home" android:title="@string/nav_home" />
+    <item android:id="@+id/nav_learn" android:icon="@drawable/ic_book" android:title="@string/nav_learn" />
+    <item android:id="@+id/nav_labs" android:icon="@drawable/ic_flask" android:title="@string/nav_labs" />
+    <item android:id="@+id/nav_games" android:icon="@drawable/ic_gamepad" android:title="@string/nav_games" />
+    <item android:id="@+id/nav_progress" android:icon="@drawable/ic_trophy" android:title="@string/nav_progress" />
+</menu>

@@ -1,0 +1,8 @@
+{
+  "name": "@physics-academy/design-tokens",
+  "version": "0.4.0",
+  "private": true,
+  "exports": {
+    "./tokens.css": "./tokens.css"
+  }
+}

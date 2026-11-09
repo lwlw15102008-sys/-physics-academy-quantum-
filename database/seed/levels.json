@@ -1,0 +1,20 @@
+{
+  "_note": "Level names come from the asset brief (15 levels). minXp values are PLACEHOLDERS to be tuned by the product owner.",
+  "levels": [
+    { "number": 1,  "slug": "silver",    "title": "فضي",        "minXp": 0 },
+    { "number": 2,  "slug": "gold",      "title": "ذهبي",       "minXp": 100 },
+    { "number": 3,  "slug": "platinum",  "title": "بلاتيني",    "minXp": 250 },
+    { "number": 4,  "slug": "diamond",   "title": "ماسي",       "minXp": 500 },
+    { "number": 5,  "slug": "elite",     "title": "متميز",      "minXp": 900 },
+    { "number": 6,  "slug": "star",      "title": "النجم",      "minXp": 1500 },
+    { "number": 7,  "slug": "hero",      "title": "البطل",      "minXp": 2400 },
+    { "number": 8,  "slug": "top",       "title": "المتفوق",    "minXp": 3600 },
+    { "number": 9,  "slug": "expert",    "title": "الخبير",     "minXp": 5200 },
+    { "number": 10, "slug": "innovator", "title": "المبتكر",    "minXp": 7200 },
+    { "number": 11, "slug": "sage",      "title": "الحكيم",     "minXp": 9800 },
+    { "number": 12, "slug": "scholar",   "title": "العلّامة",   "minXp": 13000 },
+    { "number": 13, "slug": "genius",    "title": "النابغة",    "minXp": 17000 },
+    { "number": 14, "slug": "master",    "title": "الأستاذ",    "minXp": 22000 },
+    { "number": 15, "slug": "legend",    "title": "سيد المنهج", "minXp": 28000 }
+  ]
+}

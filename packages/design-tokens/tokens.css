@@ -1,0 +1,19 @@
+:root {
+  --qa-bg: #080D1A;
+  --qa-surface: #14253D;
+  --qa-card: #111B30;
+  --qa-card-soft: #17233B;
+  --qa-blue: #3987FF;
+  --qa-cyan: #35D5E8;
+  --qa-purple: #8957FF;
+  --qa-purple-light: #A78BFA;
+  --qa-gold: #FFD700;
+  --qa-text: #F4F7FF;
+  --qa-muted: #B4C0D4;
+  --qa-dim: #8291AA;
+  --qa-success: #35D39A;
+  --qa-danger: #FF647C;
+  --qa-warning: #FFBF69;
+  --qa-info: #48B8FF;
+  --qa-radius: 22px;
+}

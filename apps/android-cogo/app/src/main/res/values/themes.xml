@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Brand theme: the app is dark-only, so day and night share the same palette. -->
+  <style name="Base.AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+    <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    <item name="android:windowLightNavigationBar">?attr/isLightTheme</item>
+    <item name="android:windowBackground">@color/qa_bg</item>
+    <item name="android:colorBackground">@color/qa_bg</item>
+    <item name="android:textColorPrimary">@color/qa_text</item>
+    <item name="android:textColorSecondary">@color/qa_muted</item>
+    <item name="colorPrimary">@color/qa_blue</item>
+    <item name="colorOnPrimary">@color/qa_on_accent</item>
+    <item name="colorSecondary">@color/qa_cyan</item>
+    <item name="colorOnSecondary">@color/qa_on_accent</item>
+    <item name="colorSecondaryContainer">@color/qa_selected</item>
+    <item name="colorOnSecondaryContainer">@color/qa_cyan</item>
+    <item name="colorSurface">@color/qa_surface</item>
+    <item name="colorOnSurface">@color/qa_text</item>
+    <item name="colorOnSurfaceVariant">@color/qa_muted</item>
+    <item name="colorOutline">@color/qa_outline</item>
+  </style>
+
+  <style name="AppTheme" parent="Base.AppTheme" />
+</resources>

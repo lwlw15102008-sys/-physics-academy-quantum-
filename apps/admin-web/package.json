@@ -1,0 +1,37 @@
+{
+  "name": "@physics-academy/admin-web",
+  "version": "0.4.3",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "predev": "node ../../scripts/sync-assets.mjs admin-web",
+    "dev": "next dev -p 3001",
+    "prebuild": "node ../../scripts/sync-assets.mjs admin-web",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"no unit tests in admin-web yet\""
+  },
+  "dependencies": {
+    "@physics-academy/design-tokens": "*",
+    "lucide-react": "^0.468.0",
+    "next": "^14.2.31",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@supabase/supabase-js": "^2.57.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.31",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}
